@@ -71,6 +71,7 @@ class AddTagViewController: UIViewController, UITextFieldDelegate
                 
                 if let location = firstLocation
                 {
+                    self.setLoading(false)
                     self.loadUserLocation(location.coordinate)
                 }
                 else
