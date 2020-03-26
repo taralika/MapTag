@@ -1,0 +1,6 @@
+
+*.xcworkspacedata
+xcuserdata/
+MapTag/.DS_Store
+MapTag/Controller/.DS_Store
+.DS_Store
